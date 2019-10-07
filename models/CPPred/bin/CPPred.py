@@ -1,10 +1,10 @@
 import os,sys
-from feamodule import CTD
-from feamodule import ProtParam as PP
-from feamodule import ORF_length as len
+from models.CPPred.bin.feamodule import CTD
+from models.CPPred.bin.feamodule import ProtParam as PP
+from models.CPPred.bin.feamodule import ORF_length as len
 import Bio.SeqIO as Seq
-from feamodule import fickett
-from feamodule  import FrameKmer
+from models.CPPred.bin.feamodule import fickett
+from models.CPPred.bin.feamodule  import FrameKmer
 import argparse as agp
 
 def coding_nocoding_potential(input_file):
